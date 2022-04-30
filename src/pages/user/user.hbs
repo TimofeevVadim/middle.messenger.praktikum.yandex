@@ -1,0 +1,30 @@
+<div class="user flex h-full">
+    <div class="user__panel h-full flex justify-center items-center">
+        <div class="user__panel-icon">{{> backLinkIcon }}</div>
+    </div>
+    <div class="user__info w-full flex col items-center">
+        <div class="user__avatar avatar">
+            <div class="avatar__photo">
+                <div class="avatar__icon">{{{ avatarIcon }}}</div>
+            </div>
+        </div>
+        <h1 class="user__name">{{ userName }}</h1>
+        <div class="user__form w-full">
+            <div>{{> mail }}</div>
+            <div>{{> login }}</div>
+            <div>{{> firstName }}</div>
+            <div>{{> lastName }}</div>
+            <div>{{> nameInChat }}</div>
+            <div>{{> phone }}</div>
+        </div>
+        <div class="user__buttons w-full">
+            <div class="user__button user__button-border">
+                <div class="user__button-margin">{{> changeData }}</div>
+            </div>
+            <div class="user__button user__button-border">
+                <div class="user__button-margin">{{> changePass }}</div>
+            </div>
+            <div class="user__button">{{> exitLink }}</div>
+        </div>
+    </div>
+</div>

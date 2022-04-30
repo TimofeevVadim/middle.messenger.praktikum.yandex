@@ -1,0 +1,58 @@
+.user {
+  &__panel {
+    width: 64px;
+    background-color: $grey;
+    border-right: 1px solid #EAEAEA;
+  }
+  &__form {
+    max-width: 510px;
+  }
+  &__name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    margin: 20px 0 60px 0;
+  }
+  &__buttons {
+    max-width: 510px;
+    margin-top: 60px;
+  }
+  &__button {
+    margin: 21px 0 21px 0;
+  }
+  &__button-margin {
+    margin-bottom: 10px;
+  }
+  &__button-border {
+    border-bottom: 1px solid #EAEAEA;
+  }
+}
+.avatar {
+  position: relative;
+  margin-top: 60px;
+  &__photo {
+    background: #EFEFEF;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    &:hover {
+      background: #000000;
+      opacity: 0.6;
+    }
+  }
+  &__icon {
+    position: absolute;
+    top: 44px;
+    left: 44px;
+  }
+  &__inscription {
+    display: none;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 14px;
+    top: 56px;
+    left: 16px;
+    color: $white;
+  }
+}

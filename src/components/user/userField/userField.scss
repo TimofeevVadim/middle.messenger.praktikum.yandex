@@ -1,0 +1,23 @@
+.user-field {
+  border-bottom: 1px solid #EAEAEA;
+  margin: 12px 0;
+  &__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 13px;
+  }
+  &__name, span{
+    white-space: nowrap;
+    margin-top: 2px;
+  }
+  &__input {
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    text-align: right;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 13px;
+    color: #999999;
+  }
+}
