@@ -1,1 +1,4 @@
-@import "src/components/appInput/appInput.scss";
+@import "common";
+@import "src/components/login/loginForm";
+@import "src/components/auth/auth-form/authForm";
+@import "src/components/user/userField/userField";

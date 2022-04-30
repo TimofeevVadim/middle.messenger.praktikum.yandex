@@ -1,7 +1,9 @@
 const app = document.getElementById('app')
-const currentPath = window.location.pathname
 
 const createPage = async () => {
+    console.log('saf')
+    const currentPath = window.location.pathname
+
     if (currentPath === '/chats') {
         return import('./pages/chat/chat.tmpl')
     } else if (currentPath === '/auth') {
@@ -17,5 +19,6 @@ const createPage = async () => {
 createPage().then(res => {
     if (res) {
         app.innerHTML = res.createPage()
+        res.init()
     }
 })

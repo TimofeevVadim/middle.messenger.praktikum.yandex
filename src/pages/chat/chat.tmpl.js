@@ -4,3 +4,6 @@ import chat from './chat.hbs'
 export const createPage = () => {
     return Handlebars.compile(chat())();
 }
+export const init = () => {
+
+}
