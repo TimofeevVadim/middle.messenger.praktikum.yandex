@@ -4,6 +4,10 @@
     background-color: $grey;
     border-right: 1px solid #EAEAEA;
   }
+  &__info {
+    overflow-y: scroll;
+    padding: 0 10px;
+  }
   &__form {
     margin-top: 60px;
     max-width: 510px;
