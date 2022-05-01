@@ -26,12 +26,13 @@ const methods = {
     },
     click: () => {
         console.log(data, 'data')
+        location.replace('/chats')
     }
 }
 
 const components = {
     loginInput: appInput({ value: data.login, placeholder: 'Login', id: 'login' }),
-    passwordInput: appInput({value: data.password, placeholder: 'Password', id: 'password' }),
+    passwordInput: appInput({value: data.password, placeholder: 'Password', id: 'password', type: 'password' }),
     loginBtn: appButton({ buttonText: 'Sign in' }),
     appLink: appLink({ to: '/auth', linkText: 'Create Account' })
 }

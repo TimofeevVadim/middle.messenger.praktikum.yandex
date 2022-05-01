@@ -5,26 +5,13 @@
     border-right: 1px solid #EAEAEA;
   }
   &__form {
+    margin-top: 60px;
     max-width: 510px;
-  }
-  &__name {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 16px;
-    margin: 20px 0 60px 0;
   }
   &__buttons {
     max-width: 510px;
-    margin-top: 60px;
-  }
-  &__button {
-    margin: 21px 0 21px 0;
-  }
-  &__button-margin {
-    margin-bottom: 10px;
-  }
-  &__button-border {
-    border-bottom: 1px solid #EAEAEA;
+    margin-bottom: 100px;
+    align-items: end;
   }
 }
 .avatar {
