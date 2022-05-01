@@ -16,6 +16,8 @@ const createPage = async () => {
         return import('./pages/change-data/changeData.tmpl')
     } else if (currentPath === '/change-pass') {
         return import('./pages/change-pass/changePass.tmpl')
+    } else if (currentPath === '/') {
+        return import('./pages/login/login.tmpl')
     } else {
         return import('./pages/not-found/notFound.tmpl')
     }
