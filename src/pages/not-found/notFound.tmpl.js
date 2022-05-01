@@ -19,5 +19,6 @@ export const createPage = () => {
     return Handlebars.compile(notFound())();
 }
 export const init = () => {
-
+    console.log(window, 'window')
+    console.log(location, 'location')
 }
