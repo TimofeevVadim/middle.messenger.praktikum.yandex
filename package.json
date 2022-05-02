@@ -7,6 +7,9 @@
     "build": "parcel build index.html",
     "start": "parcel build index.html && node ./server.js "
   },
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
