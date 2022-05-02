@@ -1,0 +1,49 @@
+.user {
+  &__panel {
+    width: 64px;
+    background-color: $grey;
+    border-right: 1px solid #EAEAEA;
+  }
+  &__info {
+    overflow-y: scroll;
+    padding: 0 10px;
+  }
+  &__form {
+    margin-top: 60px;
+    max-width: 510px;
+  }
+  &__buttons {
+    max-width: 510px;
+    margin-bottom: 100px;
+    align-items: end;
+  }
+}
+.avatar {
+  position: relative;
+  margin-top: 60px;
+  &__photo {
+    background: #EFEFEF;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    &:hover {
+      background: #000000;
+      opacity: 0.6;
+    }
+  }
+  &__icon {
+    position: absolute;
+    top: 44px;
+    left: 44px;
+  }
+  &__inscription {
+    display: none;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 14px;
+    top: 56px;
+    left: 16px;
+    color: $white;
+  }
+}

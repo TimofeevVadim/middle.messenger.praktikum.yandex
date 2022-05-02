@@ -1,0 +1,18 @@
+<div class="user flex h-full">
+    <div class="user__panel h-full flex justify-center items-center">
+        <div class="user__panel-icon">{{> backLinkIcon }}</div>
+    </div>
+    <div class="user__info w-full flex col items-center">
+        <div class="user__avatar avatar">
+            <div class="avatar__photo">
+                <div class="avatar__icon">{{> avatarIcon }}</div>
+            </div>
+        </div>
+        <div class="user__form w-full">
+           {{{ form }}}
+        </div>
+        <div class="user__buttons w-full h-full flex">
+           {{{ buttons }}}
+        </div>
+    </div>
+</div>
