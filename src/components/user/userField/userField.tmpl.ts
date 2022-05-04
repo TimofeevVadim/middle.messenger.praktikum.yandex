@@ -1,4 +1,4 @@
-import Handlebars from "handlebars";
+import * as Handlebars from "handlebars";
 import tmpl from './userField.hbs'
 
 export const userField = ({ name, value, readonly }) => {

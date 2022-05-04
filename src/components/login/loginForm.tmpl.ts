@@ -1,4 +1,4 @@
-import Handlebars from "handlebars";
+import * as Handlebars from "handlebars";
 import tmpl from './loginForm.hbs'
 import { appInput } from "../common/appInput/appInput.tmpl";
 import { appButton } from "../common/app-button/appButton.tmpl";
@@ -34,7 +34,7 @@ const components = {
     loginInput: appInput({ value: data.login, placeholder: 'Login', id: 'login' }),
     passwordInput: appInput({value: data.password, placeholder: 'Password', id: 'password', type: 'password' }),
     loginBtn: appButton({ buttonText: 'Sign in' }),
-    appLink: appLink({ to: '/auth', linkText: 'Create Account' })
+    appLink: appLink({ to: '/auth', linkText: 'Create Account', classes: '' })
 }
 
 export const loginForm = () => {

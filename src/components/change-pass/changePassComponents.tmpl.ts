@@ -1,4 +1,4 @@
-import Handlebars from "handlebars";
+import * as Handlebars from "handlebars";
 import tmplForm from './changePassForm.hbs'
 import tmplButton from './changePassButton.hbs'
 import { userField } from "../user/userField/userField.tmpl";

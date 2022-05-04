@@ -1,4 +1,4 @@
-import Handlebars from "handlebars";
+import * as Handlebars from "handlebars";
 import { appInput } from "../../common/appInput/appInput.tmpl";
 import { appButton } from "../../common/app-button/appButton.tmpl";
 import { appLink } from "../../common/app-link/appLink.tmpl";

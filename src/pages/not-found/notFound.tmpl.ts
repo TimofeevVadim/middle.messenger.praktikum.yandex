@@ -1,4 +1,4 @@
-import Handlebars from "handlebars";
+import * as Handlebars from "handlebars";
 import notFound from './notFound.hbs'
 import { appLink } from "../../components/common/app-link/appLink.tmpl";
 
@@ -16,7 +16,7 @@ export const createPage = () => {
 
     methods.registerPartials()
 
-    return Handlebars.compile(notFound())();
+    return Handlebars.compile(notFound())({});
 }
 export const init = () => {
 

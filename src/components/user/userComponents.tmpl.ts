@@ -1,4 +1,4 @@
-import Handlebars from "handlebars";
+import * as Handlebars from "handlebars";
 import tmplUserButtons from './userButtons.hbs'
 import tmplUserForm from './userForm.hbs'
 
@@ -28,8 +28,8 @@ const components = {
     login: userField({ name: 'Login', value: 'vtimofeev223', readonly: 'readonly' }),
     nameInChat: userField({ name: 'Name in chat', value: 'vtimofeev223', readonly: 'readonly' }),
     phone: userField({ name: 'Phone', value: '8 (966) 323 69 66', readonly: 'readonly' }),
-    changeData: appLink({ to: '/edit', linkText: 'To change the data' }),
-    changePass: appLink({ to: '/change-pass', linkText: 'To change the password' }),
+    changeData: appLink({ to: '/edit', linkText: 'To change the data', classes: '' }),
+    changePass: appLink({ to: '/change-pass', linkText: 'To change the password', classes: '' }),
     exitLink: appLink({ to: '/login', linkText: 'Exit', classes: 'text-red' }),
 }
 

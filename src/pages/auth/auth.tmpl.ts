@@ -1,22 +1,21 @@
-import Handlebars from "handlebars";
-import auth from './auth.hbs'
+import * as Handlebars from "handlebars";
+import template from './auth.hbs'
 import { authForm, init as initAuthForm } from "../../components/auth/auth-form/authForm.tmpl";
+
 
 const methods = {
     registerPartial: () => {
         Handlebars.registerPartial('authForm', authForm())
-    }
+    },
 }
 
 const components = {
 }
 
-export const createPage = () => {
-
+export const createPage = ():string => {
     methods.registerPartial()
-
-    return Handlebars.compile(auth())();
+    return Handlebars.compile(template())({});
 }
-export const init = () => {
+export const init = (): void => {
     initAuthForm()
 }

@@ -1,4 +1,4 @@
-import Handlebars from "handlebars";
+import * as Handlebars from "handlebars";
 import login from './login.hbs'
 
 import { loginForm, init as initLoginForm} from "../../components/login/loginForm.tmpl";

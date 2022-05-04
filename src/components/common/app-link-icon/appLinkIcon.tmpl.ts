@@ -1,4 +1,4 @@
-import Handlebars from "handlebars";
+import * as Handlebars from "handlebars";
 import tmpl from './appLinkIcon.hbs'
 
 export const appLinkIcon = ({ icon, to }) => {

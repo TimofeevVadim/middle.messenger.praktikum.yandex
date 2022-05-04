@@ -1,4 +1,4 @@
-import Handlebars from "handlebars";
+import * as Handlebars from "handlebars";
 import tmplChangeDataForm from './changeDataForm.hbs'
 import tmplChangeDataButtons from './changeDataButtons.hbs'
 

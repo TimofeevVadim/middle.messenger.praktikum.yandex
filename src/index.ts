@@ -1,7 +1,7 @@
 const app = document.getElementById('app')
 
 const createPage = async () => {
-    const currentPath = window.location.pathname
+    const currentPath: string = window.location.pathname
     if (currentPath === '/chats') {
         return import('./pages/chat/chat.tmpl')
     } else if (currentPath === '/auth') {

@@ -1,4 +1,4 @@
-import Handlebars from "handlebars";
+import * as Handlebars from "handlebars";
 import tmpl from './userLayout.hbs'
 
 import { backIcon } from "../../components/icons/back-icon/backIcon.tmpl";
