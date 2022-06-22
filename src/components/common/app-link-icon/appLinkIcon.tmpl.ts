@@ -1,6 +1,5 @@
-import * as Handlebars from "handlebars";
-import tmpl from './appLinkIcon.hbs'
+import * as Handlebars from 'handlebars';
+import tmpl from './appLinkIcon.hbs';
 
-export const appLinkIcon = ({ icon, to }) => {
-    return Handlebars.compile(tmpl({ icon, to }))
-}
+const appLinkIcon = ({ icon, to }) => Handlebars.compile(tmpl({ icon, to }));
+export default appLinkIcon;

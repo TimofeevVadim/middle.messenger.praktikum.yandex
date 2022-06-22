@@ -1,6 +1,6 @@
-import * as Handlebars from "handlebars";
-import tmpl from './userField.hbs'
+import * as Handlebars from 'handlebars';
+import tmpl from './userField.hbs';
 
-export const userField = ({ name, value, readonly }) => {
-    return Handlebars.compile(tmpl({ name, value, readonly }))
-}
+const userField = ({ name, value, readonly }) => Handlebars.compile(tmpl({ name, value, readonly }));
+
+export default userField;

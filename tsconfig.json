@@ -4,6 +4,10 @@
   "noUnusedParameters": true,
   "sourceMap": true,
   "strictNullChecks": false,
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["esnext", "dom"]
+  },
   "exclude": [
     "node_modules"
   ]

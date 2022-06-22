@@ -1,6 +1,5 @@
-import * as Handlebars from "handlebars";
+import * as Handlebars from 'handlebars';
 import tmpl from './imageIcon.hbs';
 
-export const imageIcon = () => {
-    return Handlebars.compile(tmpl())
-}
+const imageIcon = () => Handlebars.compile(tmpl());
+export default imageIcon;
